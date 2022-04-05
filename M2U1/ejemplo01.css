@@ -1,0 +1,49 @@
+/*
+esta es la fuente utilizada
+font-family: 'Inspiration', cursive;
+*/
+.rojo{
+    background: #ff0000;
+background: linear-gradient(320deg,#ff0000 0%, #00ff00 80%);
+background: -webkit-linear-gradient(320deg,#ff0000 0%, #00ff00 80%);
+background: -moz-linear-gradient(320deg,#ff0000 0%, #00ff00 80%);
+border-radius: 10px 10px 132px 5px;
+-webkit-border-radius: 10px 10px 132px 5px;
+-moz-border-radius: 10px 10px 132px 5px;
+border: 18px solid #ff6550;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inspiration', cursive;
+    /*padding-top: 20px;*/
+    /*padding: 50px;*/
+   /* float: left;*/
+   text-size-adjust: 22px;
+    font: bold;
+    box-shadow: 48px 41px 33px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 48px 41px 33px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 48px 41px 33px -8px rgba(0,0,0,0.75);
+}
+
+.azul{
+    background: #0045ff;
+background: linear-gradient(45deg,#0045ff 0%, #00ff00 80%);
+background: -webkit-linear-gradient(45deg,#0045ff 0%, #00ff00 80%);
+background: -moz-linear-gradient(45deg,#0045ff 0%, #00ff00 80%);
+border-radius: 10px 10px 10px 153px;
+-webkit-border-radius: 10px 10px 10px 153px;
+-moz-border-radius: 10px 10px 10px 153px;
+border: 18px solid #ff6550;
+    width: 300px;
+    height: 200px;
+margin-top: 50px;
+margin-left: 200px;
+text-align: right;
+box-shadow: -53px 41px 33px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: -53px 41px 33px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: -53px 41px 33px -8px rgba(0,0,0,0.75);
+/*text-align: justify;*/
+/*float: left;*/
+}

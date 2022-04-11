@@ -1,0 +1,44 @@
+ .contenedor{
+     width: 350px;
+     background-color: white;
+     border: 1px solid;
+     display: inline-flex;
+     flex-direction: column;
+     align-content: flex-end;
+     flex-wrap: wrap;
+
+ }
+
+ #rojo{
+     background-color: red;
+     color: white;
+     text-align: center;
+     line-height: 100px;
+     width: 100px;
+     height: 100px;
+     margin: 0px;
+     font-size: 10px;
+
+     
+ }
+ #azul{
+    background-color: blue;
+     color: white;
+     text-align: center;
+     line-height: 100px;
+     width: 100px;
+     height: 100px;
+     margin: 0px;
+     font-size: 10px;
+ }
+
+ #amarillo{
+    background-color: green;
+     color: white;
+     text-align: center;
+     line-height: 100px;
+     width: 100px;
+     height: 100px;
+     margin: 0px;
+     font-size: 10px;
+ }

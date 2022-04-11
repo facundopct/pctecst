@@ -1,0 +1,46 @@
+.contenedor{
+    width: auto;
+    background-color: white;
+    border: 1px solid;
+    /*flex-flow: row;*/
+    display: flex;
+    /*align-content: flex-end;*/
+    /*flex-direction: row;*/
+    /*flex: auto;*/
+    justify-content: space-between;
+
+}
+
+#rojo{
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    font-size: 10px;
+
+    
+}
+#azul{
+   background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    font-size: 10px;
+}
+
+#amarillo{
+   background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    font-size: 10px;
+}

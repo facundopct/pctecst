@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="example1.css">
+</head>
+
+<body>
+
+	
+	
+	
+	
+	<div class="cuadrado"></div>
+	<svg id="mas" width="120" height="100" viewBox="0 0 120 100">
+		<rect x="10" y="10" width="100" height="80" fill="gray" />
+	</svg>
+	<svg id="menos" width="120" height="100" viewBox="0 0 120 100">
+		<rect x="10" y="10" width="100" height="80" fill="orange" />
+	</svg>
+	<svg id="tres" width="120" height="100" viewBox="0 0 120 100">
+		<rect x="10" y="10" width="100" height="80" fill="violet" />
+	</svg>
+
+	<script>
+		// CSS
+		var parrafo = document.getElementById('parrafo');
+		var menos = document.getElementById('menos');
+		var mas = document.getElementById('mas');
+
+
+
+		// podemos acceder a propiedades de css 
+		// las que llevan guion se reemplazan por minusculaMayuscula
+		menos.addEventListener('click', function () {
+
+			document.body.style.backgroundColor = "yellow";
+
+		});
+
+		mas.addEventListener('click', function () {
+
+			document.body.style.backgroundColor = "red";
+		});
+
+		tres.addEventListener('click', function () {
+
+			document.body.style.backgroundColor = "green";
+		});
+
+
+	</script>
+
+
+</body>
+
+</html>
